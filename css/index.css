@@ -1,0 +1,286 @@
+
+.header{
+    background: #101010;
+}
+
+.header .top{
+    position: relative;
+}
+.header .top .fl{
+    font-size: 15px;
+    line-height: 28px;
+    margin-left: 206px;
+}
+.header .top .fr{
+    margin-right: 10px;
+}
+.header .top .fr a{
+    color: #ff6600;
+    font-size: 13px;
+    line-height: 28px;
+}
+.header .top .fr a:nth-of-type(2){
+    color: #ebebeb;
+}
+.header .top img{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.search{
+    padding-top: 4px;
+}
+.search .input{
+    margin-left:515px;
+}
+.search .input input{
+    border: 2px solid #ff6600;
+    background: url("../img/bgicon.png") no-repeat;
+    background-position: 390px 0;
+    width: 440px;
+    height: 32px;
+    outline: none;
+    text-indent: .5em;
+}
+.search .input div{
+    width: 100px;
+    height: 34px;
+}
+.search .input div{
+    font-size: 14px;
+    text-align: center;
+    line-height: 34px;
+    background: #ebebeb;
+    border: 1px solid #ccc;
+    margin-right: 10px;
+}
+.search .input div a{
+    color: #808080;
+}
+.search .input div:last-child{
+    background: url("../img/bgicon.png") no-repeat;
+    background-position: 0 -42px;
+    position: relative;
+    margin-right: 0;
+    border:1px solid #ff6600;
+    border-right: none;
+}
+.search .input div:last-child span{
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 65px;
+    height: 34px;
+    line-height: 34px;
+
+    background: #ff6600;
+}
+.search .input div:last-child span a {
+    font-size: 14px;
+    color: #fff;
+}
+.search ul{
+    margin-left: 200px;
+    margin-top: 24px;
+}
+.search ul li{
+    float:left;
+    margin-left: 34px;
+    font-size: 16px;
+}
+.search ul li a{
+    color: #323232;
+}
+/*menu菜单样式*/
+.menu .fl ul{
+    background: #f3f3f3;
+    position: relative;
+}
+.menu .fl li{
+    width: 199px;
+    height: 35px;
+    text-indent: 3em;
+}
+.menu .fl li a{
+    line-height: 28px;
+    color: #1a1a1a;
+    font-size: 14px;
+}
+/*.menu .fl .nav:hover::after{
+    content: '';
+    display: block;
+    width: 10px;
+    height: 100%;
+    position: absolute;
+    left: 100%;
+    top: 0;
+    background-color: white;
+    margin-right: -5px;
+    z-index: 99;
+}
+.menu .fl li.nav::after{
+     content: '';
+     display: block;
+     width: 10px;
+     height: 100%;
+     position: absolute;
+     left: 96%;
+     top: 0;
+     background-color: red;
+     margin-right: -5px;
+     z-index: 99;
+ }*/
+.menu .subnav{
+    position: absolute;
+    top: 0;
+    left: 199px;
+    width: 578px;
+    height: 518px;
+    border: 1px solid #ff6600;
+    display: none;
+    z-index: 98;
+    opacity: 1;
+    background: #fff;
+}
+.menu .subMenu{
+    position: absolute;
+}
+.menu .fl ul li:hover .subnav{
+    display: block;
+}
+.menu .fl ul li .subMenu a:hover{
+    color: #ff6700;
+}
+.menu .fl ul li:hover .subMenu{
+    position: absolute;
+    width: 200px;
+    height: 35px;
+    z-index: 99;
+    background-color: #fff;
+    /* 怪异盒子 */
+    box-sizing: border-box;
+    border: 1px solid #ff6600;
+    border-right: none;
+}
+.menu .subnav div{
+    width: 472px;
+    margin-left: 36px;
+    text-indent: 0;
+}
+.menu .slideBox{
+    z-index: 97;
+}
+.menu .slideBox div.tips div.nums{
+    margin-left: 0;
+}
+/*内容*/
+.content .today-recommend{
+    margin-top: 10px;
+}
+.content .today-recommend .h2{
+    margin-left: 18px;
+    color: #ff6600;
+    font-size: 24px;
+    line-height: 46px;
+}
+.content .today-recommend .ul-content{
+    border-top: 6px solid #ff6600;
+}
+.content .today-recommend .ul-content .ul-center{
+    background: #ff6600;
+    height: 496px;
+    width: 1190px;
+    margin:0 auto;
+}
+
+.content .today-recommend .ul-content .ul-center ul li{
+    background: #fff;
+    width: 196px;
+    height: 246px;
+    float: left;
+    margin-right: 2px;
+    margin-bottom: 2px;
+}
+.content .today-recommend .ul-content .ul-center ul li:first-child{
+    margin-left: 2px;
+}
+.content .today-recommend .ul-content .ul-center ul li:nth-of-type(7){
+    margin-left: 2px;
+}
+.content .today-recommend .ul-content .ul-center ul li a{
+    display: block;
+    font-size: 14px;
+}
+.content .today-recommend .ul-content .ul-center ul li a:nth-of-type(2){
+    color: #484848;
+}
+.content .today-recommend .ul-content .ul-center ul li a:nth-of-type(3){
+    color: #f4290d;
+}
+.content .today-recommend .ul-content .ul-center ul li a:not(:first-child){
+    text-indent: .5em;
+}
+.content .today-recommend .ul-content .ul-center ul li a:first-child {
+    text-align: center;
+}
+.content .today-recommend .ul-content .ul-center ul li a:last-child{
+    color: #f4290d;
+    font-size: 24px;
+
+}
+/*童书*/
+.content .child-books{
+    margin-top: 41px;
+}
+.content .child-books .top .fl h3{
+    font-size: 28px;
+    color: #333;
+    line-height: 28px;
+}
+.content .child-books .top .fr{
+    width: 294px;
+    margin-right: 296px;
+}
+.content .child-books .top .fr div{
+    width: 98px;
+    height: 34px;
+    background: #fff;
+    font-size: 18px;
+    color: #333;
+    float: left;
+    text-align: center;
+    line-height: 34px;
+}
+.content .child-books .bottom .felt-bottom{
+    border-top: 6px solid #ff6600;
+    width: 904px;
+    height: 436px;
+    background: #ccc;
+}
+.content .child-books .bottom .felt-bottom .img{
+    width: 238px;
+}
+.content .child-books .bottom .felt-bottom .img .fl-ul li{
+    float: left;
+    line-height: 38px;
+    width: 70px;
+    margin-left: 9px;
+}
+.content .child-books .bottom .felt-bottom .img .fl-ul li a{
+    font-size: 14px;
+    color: #333;
+}
+.content .child-books .bottom .felt-bottom .center-img{
+    width: 662px;
+}
+.content .child-books .bottom .felt-bottom .center-img .center-ul li{
+    float: left;
+    height: 216px;
+}
+.content .child-books .bottom .felt-bottom .center-img .center-ul li:first-child div{
+    width: 330px;
+    height: 216px;
+
+    background: green;
+}

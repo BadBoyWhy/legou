@@ -1,0 +1,29 @@
+/*版心*/
+.wrapper{
+    width: 1200px;
+    margin: 0 auto;
+}
+/*左浮动*/
+.fl{
+    float: left;
+}
+/*右浮动*/
+.fr{
+    float: right;
+}
+/*浮动清除*/
+.clearfix:after{
+    content: '';
+    display: block;
+    clear: both;
+}
+/*字体居中*/
+.tcenter{
+    text-align: center;
+}
+/*白色字体*/
+.fontwhite{
+    color: #e6e6e6;
+}
+
+

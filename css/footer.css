@@ -1,0 +1,46 @@
+#footer .img{
+    height: 94px;
+    background: #f2f2f2;
+    border-top:6px solid #ff6600;
+    line-height: 94px;
+}
+#footer .img a{
+    display: block;
+    margin-right: 93px;
+    float: left;
+}
+#footer .img a:first-child{
+    margin-left: 208px;
+}
+#footer .guild{
+    margin-top: 36px;
+}
+#footer .guild ul{
+    float: left;
+}
+#footer .guild ul:first-child{
+    margin-left: 263px;
+}
+#footer .guild ul{
+    margin-right: 77px;
+}
+#footer .guild ul li a{
+    font-size: 16px;
+    color: #4d4d4d;
+    line-height: 30px;
+}
+#footer .guild img{
+    margin-top: 30px;
+}
+#footer .note{
+    margin-top: 40px;
+    margin-left: 210px;
+}
+#footer .note a{
+    font-size: 16px;
+    color: #333;
+    margin: 0 18px;
+}
+#footer .copyright{
+    margin-top: 25px;
+}
